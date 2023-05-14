@@ -3,8 +3,8 @@ University Of Minnesota - Fall 2021
 EE5271 - Robot Vision Project
 
 Project team members:
-1. Srujan Gowdru Lingaraju - gowdr002 
-2. Abha Gejji - gejji003
+1. Srujan Gowdru Lingaraju - gowdr002@umn.edu 
+2. Abha Gejji - gejji003@umn.edu
 
 Project Description:
 This vision project is a proof of concept of developing a Self Assessment module for Laproscopic surgical training task.
