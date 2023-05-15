@@ -4,13 +4,51 @@ Project team members:
 1. Srujan Gowdru Lingaraju - gowdr002@umn.edu 
 2. Abha Gejji - gejji003@umn.edu
 
-Project Description:
+## Project Description:
 This vision project is a proof of concept of developing a Self Assessment module for Laproscopic surgical training task.
 
-Surgical task:
+---
+## Surgical Task
 The surgical training task is to pick and sort the colored beans inside a Laparoscopic simulator.
+<p align="left">
+   <img src="images/tasks_2.png" alt="hough" style="width: 25%; height: 25%;"/>
+</p>
 
-How to test the module.
+## Target Localisation
+
+<p align="left">
+   <img src="images/hough_1.png" alt="hough" style="width: 25%; height: 25%;"/>
+</p>
+
+1. Gaussian Blur and Canny Edge Detection.
+2. Hough Transforms for traget localisation.
+
+## Color Image Segmentation
+
+<p align="left">
+   <img src="images/segmentation.png" alt="hough" style="width: 25%; height: 25%;"/>
+</p>
+HSV Thresholding for generating object masks
+
+## Object Tracking
+<p align="left">
+   <img src="images/tracking.png" alt="hough" style="width: 25%; height: 25%;"/>
+</p>
+
+1. Background subtraction with mask using absolute difference of consecutive frames or by using KNN based subtractor.
+2. Bounding box for moving objects
+3. Kalman filtering for optimisation
+
+## Trajectories
+<p align="left">
+   <img src="images/traj.png" alt="hough" style="width: 25%; height: 25%;"/>
+</p>
+---
+
+
+
+
+## Instructions.
 1. There are two videos "sorting_1" and "sorting_2"
 2. Run the object_tracking_stable_3.py file with either of the two videos
    1. Replace the path in line 8 of object_tracking_stable_3.py
