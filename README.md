@@ -1,7 +1,4 @@
-
-University Of Minnesota - Fall 2021
-
-EE5271 - Robot Vision Project
+# Vision Based Self-Assessment of Laparoscopic Training Task
 
 Project team members:
 1. Srujan Gowdru Lingaraju - gowdr002@umn.edu 
